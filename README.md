@@ -4,4 +4,4 @@ Primeiro teste:
 
 
 Segundo teste: 
-[Média de um array] (https://github.com/fariasnatalia/https---github.com-fariasnatalia-Prova-T-cnica/tree/Segundo-Teste/segundoteste)
+[Média de um array](https://github.com/fariasnatalia/https---github.com-fariasnatalia-Prova-T-cnica/tree/Segundo-Teste/segundoteste)
