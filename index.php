@@ -1,5 +1,5 @@
 <?php 
-
+include __DIR__.'/styles.php';
 class Carro{
     private $marca;
     private $modelo;
@@ -14,29 +14,30 @@ class Carro{
     }
    
     function acelerar() {
-        // Lógica para acelerar o carro
+        echo '<h1>Simbora vrum vrum<h1>';
       }
     
       function frear() {
-        // Lógica para frear o carro
+        echo 'Pé no freio irrrrrrrr';
       }
     
       function virar() {
-        // Lógica para virar o carro para a direita ou esquerda
+        echo 'Virando, virando prum lado, virando virando pro outro...';
       }
     
       function calcularIdade() {
-        $anoAtual = date("Y");
+        $anoAtual = date('Y');
         return $anoAtual - $this->anoFabricacao;
       }
 }
-      $meuCarro  = new Carro("Chevrolet", "Onix", "Branco", 2022);
+      $meuCarro  = new Carro('Chevrolet', 'Camaro', 'amarelo', 2022);
 
       $meuCarro->acelerar();
+      
       $meuCarro->frear();
-      echo "A marca do meu carro é: Chevrolet Onix de cor branco <br>";
-      echo "Meu carro pode virar tanto pra esquerda, quanto pra ".$meuCarro->virar()."direita <br>";
-      echo "A idade do carro é : " . $meuCarro->calcularIdade() . " ano";
+      echo '<h2>A marca do meu carro é Chevrolet modelo Camaro e a cor dele é amarelo <br></h2>';
+      echo 'Meu carro pode virar tanto pra esquerda, quanto pra '.$meuCarro->virar().'direita <br';
+      echo 'A idade do carro é : ' . $meuCarro->calcularIdade() .' ano';
       
 
 
