@@ -2,7 +2,7 @@
 html,body{
     font-family: sans-serif;
     background-color: #333;
-    color : white;
+    color : pink;
     padding-bottom: 50%;
 }
 h2{

@@ -1,10 +1,9 @@
 <?php 
 include __DIR__.'/styles.php';
 
-echo '<h1>Manipulação de Dados com array em PHP: </h1>';
+echo '<h1><center>Manipulação de Dados com array em PHP: <center></h1>';
 
-echo '<h2>Fiz uma função em PHP que recebe um array como parâmetro e retorna a média das notas dos alunos.</h2>';
-
+echo '<h2><center>Fiz uma função em PHP que recebe um array como parâmetro e retorna a média das notas dos alunos.</center></h2>';
 
 
 
@@ -30,7 +29,7 @@ echo '<h2>Fiz uma função em PHP que recebe um array como parâmetro e retorna 
   ];
     $resultado = calcularMediaNotas($alunos);
     
-     echo 'A média das notas é:'.$resultado;
+     echo '<h3><center>A média da nota de todos os alunos é:<h3><center>'.$resultado;
      
     
     
