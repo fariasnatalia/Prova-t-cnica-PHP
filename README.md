@@ -40,7 +40,7 @@ Para executar o primeiro arquivo abra o seu navegador e insira o link :
 http://localhost/Prova-t-cnica-PHP/
 
 - A segunda branch tem o nome de:
-Segundo-Teste 
+Segundo-Teste<p>
 Para executar o segundo arquivo abra o seu navegador e insira o link :
 http://localhost/https---github.com-fariasnatalia-Prova-T-cnica/segundoteste/
 
@@ -49,7 +49,7 @@ http://localhost/https---github.com-fariasnatalia-Prova-T-cnica/segundoteste/
 
 
 
-# Pré Requisitos para execução do projeto
+# <center>Pré Requisitos para execução do projeto
 - Instalação do XAMPP : o pacote de código aberto com suporte a linguagen PHP na qual ultilizamos nesse projeto.<p>
 ![XAMPP](https://www.wikihow.com/images/thumb/2/2d/Install-XAMPP-for-Windows-Step-1-Version-4.jpg/v4-728px-Install-XAMPP-for-Windows-Step-1-Version-4.jpg.webp)
 
